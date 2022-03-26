@@ -7,6 +7,8 @@
 |-|-|-|
 |xunit|ListService|GetHouseById|
 
+![png](https://github.com/YuChenMVC/DemoWebTest/blob/master/png.png)
+
 ## Resource
 
 > ´ú¸ÕHTTP response¥Î

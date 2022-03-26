@@ -16,6 +16,7 @@ namespace DemoWebTests
             _demoDatabaseContext = new DemoDatabaseContext();
         }
 
+        #region 測試是否正常回傳ListSelectDto型別
         [Fact]
         public void GetHouseById_WhenCalled_ReturnsResult()
         {
@@ -24,5 +25,6 @@ namespace DemoWebTests
             // Assert 與預期結果比對
             Assert.IsType<ListSelectDto>(Result);
         }
+        #endregion
     }
 }
